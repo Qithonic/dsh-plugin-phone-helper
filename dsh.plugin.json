@@ -1,0 +1,8 @@
+﻿{
+  "name": "dsh-plugin-phone-helper",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: Floating overlay guide, automated assistance, and remote help for mobile.",
+  "entry": "./src/index.ts",
+  "client": "./src/client/index.tsx",
+  "tags": ["dsh-plugin", "deepseek-harness"]
+}

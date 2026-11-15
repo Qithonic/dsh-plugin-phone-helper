@@ -1,0 +1,28 @@
+﻿{
+  "name": "@qithonic/dsh-plugin-phone-helper",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: Floating overlay guide, automated assistance, and remote help for mobile.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client/index.tsx"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis"
+  ],
+  "dsh": {
+    "bundle": "./src/index.ts",
+    "client": "./src/client/index.tsx"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  }
+}
